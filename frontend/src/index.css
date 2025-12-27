@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-reddit-dark text-reddit-text min-h-screen;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-reddit-dark;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-reddit-border rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-reddit-textSecondary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-reddit-orange hover:bg-reddit-orangeLight text-white font-semibold py-2 px-4 rounded-full transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-reddit-text text-reddit-text hover:bg-reddit-darkLight font-semibold py-2 px-4 rounded-full transition-colors;
+  }
+  
+  .card {
+    @apply bg-reddit-darkLight border border-reddit-border rounded-md;
+  }
+  
+  .input {
+    @apply w-full bg-reddit-dark border border-reddit-border rounded-md px-4 py-2 text-reddit-text placeholder-reddit-textSecondary focus:outline-none focus:border-reddit-text transition-colors;
+  }
+}
+
