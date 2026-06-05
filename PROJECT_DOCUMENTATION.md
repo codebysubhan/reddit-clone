@@ -1010,13 +1010,5 @@ MAIL_FROM=your@gmail.com
 
 ---
 
-## Project Team
-
-**Course**: Big Data Analytics  
-**Semester**: Fall 2024  
-**Project**: Reddit Clone with Polyglot Persistence
-
----
-
 *Documentation generated: December 2024*
 
