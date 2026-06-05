@@ -1,6 +1,6 @@
 # Reddit Clone - Polyglot Persistence Demo
 
-A Reddit-like social platform demonstrating **polyglot persistence** principles for a Big Data Analytics semester project.
+A Reddit-like social platform demonstrating **polyglot persistence** principles.
 
 ## 🏗️ Architecture
 
